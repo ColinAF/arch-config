@@ -3,6 +3,8 @@
 # TODO
 # Break each section into its own script 
 
+GIT_REMOTE = https://github.com/ColinAF
+
 ###############################################################################
 # Arch config
 echo "Running Colin's Arch Config Script" 
@@ -30,7 +32,7 @@ cd .myConfigs
 ###############################################################################
 # Dotfiles config
 echo "Installing my dotfiles"
-git clone git@github.com:ColinAF/dotfiles.git $HOME/.myConfigs
+git clone GIT_REMOTE/dotfiles.git $HOME/.myConfigs
 ./.myConfigs/dotfiles/install
 
 
@@ -43,5 +45,5 @@ git clone git@github.com:ColinAF/dotfiles.git $HOME/.myConfigs
 
 ###############################################################################
 # Clone the repos 
-# git clone git@github.com:ColinAF/dwm.git
-# git clone git@github.com:ColinAF/st.git
+# git clone GIT_REMOTE/dwm.git
+# git clone GIT_REMOTE/st.git
