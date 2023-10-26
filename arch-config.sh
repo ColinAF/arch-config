@@ -32,9 +32,8 @@ cd .myConfigs
 ###############################################################################
 # Dotfiles config
 echo "Installing my dotfiles"
-REPO = $GIT_REMOTE 
-REPO += '/dotfiles.git'
-git clone $REPO $HOME/.myConfigs
+REPO = "$GIT_REMOTE/dotfiles.git"
+git clone $REPO "$HOME/.myConfigs"
 ./.myConfigs/dotfiles/install
 
 
