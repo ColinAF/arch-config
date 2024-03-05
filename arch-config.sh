@@ -37,6 +37,10 @@ cd $CONFIG_DIR
 
 
 ###############################################################################
+# Setup Password manager and security tools 
+
+
+###############################################################################
 # Dotfiles config
 echo "Installing my dotfiles"
 REPO="$GIT_REMOTE/dotfiles.git"
