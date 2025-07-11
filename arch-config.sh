@@ -18,6 +18,7 @@ echo "Running Colin's Arch Config Script"
 pacman -Syu --noconfirm
 
 # Install all the programs I like 
+# Add in pipewire, tmux, ardour, vimb, firerox
 pacman -S --noconfirm git make gcc binutils vim nvim htop neofetch ranger mutt newsboat sxiv mupdf xorg-xinit xorg-server feh
 
 # Add in libs for dwm / dwmbar
